@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F7E4F3A177A845B00C5B1F8 /* OCMockObject+Lazy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7E4F39177A845B00C5B1F8 /* OCMockObject+Lazy.m */; };
+		7F7E4F3D177A84A900C5B1F8 /* OCMockObjectLazyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7E4F3C177A84A900C5B1F8 /* OCMockObjectLazyTests.m */; };
+		7FAFD3D1177A81B500452AB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FAFD3D0177A81B500452AB5 /* Foundation.framework */; };
+		7FAFD3E0177A81B500452AB5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FAFD3DF177A81B500452AB5 /* SenTestingKit.framework */; };
+		7FAFD3E2177A81B500452AB5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FAFD3E1177A81B500452AB5 /* UIKit.framework */; };
+		7FAFD3E3177A81B500452AB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FAFD3D0177A81B500452AB5 /* Foundation.framework */; };
+		7FAFD3E6177A81B500452AB5 /* libOCMockLazy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FAFD3CD177A81B500452AB5 /* libOCMockLazy.a */; };
+		7FAFD3EC177A81B500452AB5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7FAFD3EA177A81B500452AB5 /* InfoPlist.strings */; };
+		7FAFD401177A81EA00452AB5 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FAFD3F9177A81EA00452AB5 /* libOCMock.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7FAFD3E4177A81B500452AB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FAFD3C5177A81B500452AB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FAFD3CC177A81B500452AB5;
+			remoteInfo = OCMockLazy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7FAFD3CB177A81B500452AB5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7F7E4F38177A845B00C5B1F8 /* OCMockObject+Lazy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OCMockObject+Lazy.h"; sourceTree = "<group>"; };
+		7F7E4F39177A845B00C5B1F8 /* OCMockObject+Lazy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OCMockObject+Lazy.m"; sourceTree = "<group>"; };
+		7F7E4F3C177A84A900C5B1F8 /* OCMockObjectLazyTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCMockObjectLazyTests.m; sourceTree = "<group>"; };
+		7FAFD3CD177A81B500452AB5 /* libOCMockLazy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOCMockLazy.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FAFD3D0177A81B500452AB5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7FAFD3D4177A81B500452AB5 /* OCMockLazy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OCMockLazy-Prefix.pch"; sourceTree = "<group>"; };
+		7FAFD3DE177A81B500452AB5 /* OCMockLazyTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCMockLazyTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FAFD3DF177A81B500452AB5 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		7FAFD3E1177A81B500452AB5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		7FAFD3E9177A81B500452AB5 /* OCMockLazyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OCMockLazyTests-Info.plist"; sourceTree = "<group>"; };
+		7FAFD3EB177A81B500452AB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7FAFD3F9177A81EA00452AB5 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOCMock.a; sourceTree = "<group>"; };
+		7FAFD3FB177A81EA00452AB5 /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
+		7FAFD3FC177A81EA00452AB5 /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
+		7FAFD3FD177A81EA00452AB5 /* OCMConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMConstraint.h; sourceTree = "<group>"; };
+		7FAFD3FE177A81EA00452AB5 /* OCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMock.h; sourceTree = "<group>"; };
+		7FAFD3FF177A81EA00452AB5 /* OCMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockObject.h; sourceTree = "<group>"; };
+		7FAFD400177A81EA00452AB5 /* OCMockRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockRecorder.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FAFD3CA177A81B500452AB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FAFD3D1177A81B500452AB5 /* Foundation.framework in Frameworks */,
+				7FAFD401177A81EA00452AB5 /* libOCMock.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FAFD3DA177A81B500452AB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FAFD3E0177A81B500452AB5 /* SenTestingKit.framework in Frameworks */,
+				7FAFD3E2177A81B500452AB5 /* UIKit.framework in Frameworks */,
+				7FAFD3E3177A81B500452AB5 /* Foundation.framework in Frameworks */,
+				7FAFD3E6177A81B500452AB5 /* libOCMockLazy.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FAFD3C4177A81B500452AB5 = {
+			isa = PBXGroup;
+			children = (
+				7FAFD3D2177A81B500452AB5 /* OCMockLazy */,
+				7FAFD3E7177A81B500452AB5 /* OCMockLazyTests */,
+				7FAFD3F8177A81EA00452AB5 /* OCMock */,
+				7FAFD3CF177A81B500452AB5 /* Frameworks */,
+				7FAFD3CE177A81B500452AB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FAFD3CE177A81B500452AB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FAFD3CD177A81B500452AB5 /* libOCMockLazy.a */,
+				7FAFD3DE177A81B500452AB5 /* OCMockLazyTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FAFD3CF177A81B500452AB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FAFD3D0177A81B500452AB5 /* Foundation.framework */,
+				7FAFD3DF177A81B500452AB5 /* SenTestingKit.framework */,
+				7FAFD3E1177A81B500452AB5 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7FAFD3D2177A81B500452AB5 /* OCMockLazy */ = {
+			isa = PBXGroup;
+			children = (
+				7F7E4F38177A845B00C5B1F8 /* OCMockObject+Lazy.h */,
+				7F7E4F39177A845B00C5B1F8 /* OCMockObject+Lazy.m */,
+				7FAFD3D3177A81B500452AB5 /* Supporting Files */,
+			);
+			path = OCMockLazy;
+			sourceTree = "<group>";
+		};
+		7FAFD3D3177A81B500452AB5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FAFD3D4177A81B500452AB5 /* OCMockLazy-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7FAFD3E7177A81B500452AB5 /* OCMockLazyTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F7E4F3C177A84A900C5B1F8 /* OCMockObjectLazyTests.m */,
+				7FAFD3E8177A81B500452AB5 /* Supporting Files */,
+			);
+			path = OCMockLazyTests;
+			sourceTree = "<group>";
+		};
+		7FAFD3E8177A81B500452AB5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FAFD3E9177A81B500452AB5 /* OCMockLazyTests-Info.plist */,
+				7FAFD3EA177A81B500452AB5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7FAFD3F8177A81EA00452AB5 /* OCMock */ = {
+			isa = PBXGroup;
+			children = (
+				7FAFD3F9177A81EA00452AB5 /* libOCMock.a */,
+				7FAFD3FA177A81EA00452AB5 /* OCMock */,
+			);
+			path = OCMock;
+			sourceTree = "<group>";
+		};
+		7FAFD3FA177A81EA00452AB5 /* OCMock */ = {
+			isa = PBXGroup;
+			children = (
+				7FAFD3FB177A81EA00452AB5 /* NSNotificationCenter+OCMAdditions.h */,
+				7FAFD3FC177A81EA00452AB5 /* OCMArg.h */,
+				7FAFD3FD177A81EA00452AB5 /* OCMConstraint.h */,
+				7FAFD3FE177A81EA00452AB5 /* OCMock.h */,
+				7FAFD3FF177A81EA00452AB5 /* OCMockObject.h */,
+				7FAFD400177A81EA00452AB5 /* OCMockRecorder.h */,
+			);
+			path = OCMock;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FAFD3CC177A81B500452AB5 /* OCMockLazy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FAFD3F2177A81B500452AB5 /* Build configuration list for PBXNativeTarget "OCMockLazy" */;
+			buildPhases = (
+				7FAFD3C9177A81B500452AB5 /* Sources */,
+				7FAFD3CA177A81B500452AB5 /* Frameworks */,
+				7FAFD3CB177A81B500452AB5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OCMockLazy;
+			productName = OCMockLazy;
+			productReference = 7FAFD3CD177A81B500452AB5 /* libOCMockLazy.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7FAFD3DD177A81B500452AB5 /* OCMockLazyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FAFD3F5177A81B500452AB5 /* Build configuration list for PBXNativeTarget "OCMockLazyTests" */;
+			buildPhases = (
+				7FAFD3D9177A81B500452AB5 /* Sources */,
+				7FAFD3DA177A81B500452AB5 /* Frameworks */,
+				7FAFD3DB177A81B500452AB5 /* Resources */,
+				7FAFD3DC177A81B500452AB5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FAFD3E5177A81B500452AB5 /* PBXTargetDependency */,
+			);
+			name = OCMockLazyTests;
+			productName = OCMockLazyTests;
+			productReference = 7FAFD3DE177A81B500452AB5 /* OCMockLazyTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FAFD3C5177A81B500452AB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Yosuke Ishikawa";
+			};
+			buildConfigurationList = 7FAFD3C8177A81B500452AB5 /* Build configuration list for PBXProject "OCMockLazy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7FAFD3C4177A81B500452AB5;
+			productRefGroup = 7FAFD3CE177A81B500452AB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FAFD3CC177A81B500452AB5 /* OCMockLazy */,
+				7FAFD3DD177A81B500452AB5 /* OCMockLazyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FAFD3DB177A81B500452AB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FAFD3EC177A81B500452AB5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7FAFD3DC177A81B500452AB5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FAFD3C9177A81B500452AB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F7E4F3A177A845B00C5B1F8 /* OCMockObject+Lazy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FAFD3D9177A81B500452AB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F7E4F3D177A84A900C5B1F8 /* OCMockObjectLazyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7FAFD3E5177A81B500452AB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FAFD3CC177A81B500452AB5 /* OCMockLazy */;
+			targetProxy = 7FAFD3E4177A81B500452AB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7FAFD3EA177A81B500452AB5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FAFD3EB177A81B500452AB5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FAFD3F0177A81B500452AB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7FAFD3F1177A81B500452AB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FAFD3F3177A81B500452AB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/OCMockLazy.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OCMockLazy/OCMockLazy-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/OCMock";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/OCMock\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7FAFD3F4177A81B500452AB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/OCMockLazy.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OCMockLazy/OCMockLazy-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/OCMock";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/OCMock\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7FAFD3F6177A81B500452AB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OCMockLazy/OCMockLazy-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/OCMock";
+				INFOPLIST_FILE = "OCMockLazyTests/OCMockLazyTests-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		7FAFD3F7177A81B500452AB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OCMockLazy/OCMockLazy-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/OCMock";
+				INFOPLIST_FILE = "OCMockLazyTests/OCMockLazyTests-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FAFD3C8177A81B500452AB5 /* Build configuration list for PBXProject "OCMockLazy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FAFD3F0177A81B500452AB5 /* Debug */,
+				7FAFD3F1177A81B500452AB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FAFD3F2177A81B500452AB5 /* Build configuration list for PBXNativeTarget "OCMockLazy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FAFD3F3177A81B500452AB5 /* Debug */,
+				7FAFD3F4177A81B500452AB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FAFD3F5177A81B500452AB5 /* Build configuration list for PBXNativeTarget "OCMockLazyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FAFD3F6177A81B500452AB5 /* Debug */,
+				7FAFD3F7177A81B500452AB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FAFD3C5177A81B500452AB5 /* Project object */;
+}
